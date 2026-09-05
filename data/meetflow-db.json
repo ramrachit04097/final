@@ -1,0 +1,297 @@
+{
+  "companies": [
+    {
+      "id": "comp_seed_acme",
+      "name": "Acme Technologies",
+      "email": "admin@acme.com",
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "comp_a30411736c575c63",
+      "name": "Victoria Secret",
+      "email": "victoria@gmail.com",
+      "createdAt": "2026-09-05T04:07:57.437Z"
+    }
+  ],
+  "managers": [
+    {
+      "id": "mgr_seed_1",
+      "managerId": "MGR-001",
+      "managerName": "Sarah Jenkins",
+      "companyId": "comp_seed_acme",
+      "companyEmail": "admin@acme.com",
+      "passwordHash": "f680ee45646d43eece5cb494a1ed89b4:b80ba9c63f9783b0ca1d725b1f89b63855cea32761c444d8897b126911cb634835f3dc62648ce41cdc5d689415be865d0cc4c162a64f31286ed4dfcc2d27813e",
+      "role": "Manager",
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "mgr_986155394c29ba7e",
+      "managerId": "MGR-123",
+      "managerName": "Ram Rachit Dubey",
+      "companyId": "comp_a30411736c575c63",
+      "companyEmail": "victoria@gmail.com",
+      "passwordHash": "4f88fd6066172b6554587d09c510e542:ac820014da30ed4806b2ee9549d412990d1753d897e8f261749b7ff2080fb9c040f0e29a587d911515c55fecf26ade3d931db3d5feb7e512e0629d312adee5e9",
+      "role": "Manager",
+      "createdAt": "2026-09-05T04:07:57.484Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp_seed_1",
+      "employeeId": "EMP-101",
+      "employeeName": "Alex Rivera",
+      "employeePost": "Senior Fullstack Engineer",
+      "companyId": "comp_seed_acme",
+      "passwordHash": "9e8d6b5cbe51c6ec0ea456d278d74439:3f5dbdce7ebc8d2de65f5717acf781b0f4f6a7e600e2174346163139e62779cef11aa5766eacf3079af8a05c4a764eb416d4d5b288e32c514a1ddff27effc355",
+      "role": "Employee",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-05T04:07:56.160Z",
+      "lastLogin": "2026-09-05T05:20:53.424Z"
+    },
+    {
+      "id": "emp_seed_2",
+      "employeeId": "EMP-102",
+      "employeeName": "Priya Sharma",
+      "employeePost": "Product Designer",
+      "companyId": "comp_seed_acme",
+      "passwordHash": "dc08a03aa7c24e9af7ff6cdea1e1ae19:6654743f52700a69d24942fa0048c1252d2a4b91d408525cdb2228cc0ac1362b3c2ea8e1259aa0a26cdf81ce4fe8894282860eb5692ae5abd7dbdd5b0fba2239",
+      "role": "Employee",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "emp_seed_3",
+      "employeeId": "EMP-103",
+      "employeeName": "Marcus Chen",
+      "employeePost": "QA & Release Lead",
+      "companyId": "comp_seed_acme",
+      "passwordHash": "e2c6e9b35580de70bf54bb295df71561:209627ecd68c9d696cbc4df10641ec61e5e840e9b00707b9796094cf864cd27cce49e60c0295c484502995725a44402a06a3a2eb37522b3494ead176503b6590",
+      "role": "Employee",
+      "status": "INACTIVE",
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "emp_e3d08e037272ee0d",
+      "employeeId": "101",
+      "employeeName": "abhiraj",
+      "employeePost": "HR",
+      "companyId": "comp_a30411736c575c63",
+      "passwordHash": "e1a47638094662ae1be9d162fadd0578:a5ddc355c59604456c69a4212db0117cda53188e676065be773ea161427ffba47c81957e2b2721d613207c23c0aa2a5c1f5448824873c2b479aa86bdce78374d",
+      "role": "Employee",
+      "status": "INACTIVE",
+      "createdAt": "2026-09-05T04:24:39.193Z",
+      "lastLogin": "2026-09-05T04:37:19.063Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_3fa1c984a119fec5",
+      "companyId": "comp_a30411736c575c63",
+      "employeeId": "101",
+      "employeeName": "abhiraj",
+      "employeePost": "HR",
+      "subject": "Create and submit presentation",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-12",
+      "status": "Pending",
+      "createdAt": "2026-09-05T05:12:20.523Z",
+      "updatedAt": "2026-09-05T05:12:20.523Z"
+    },
+    {
+      "id": "task_a75cee3dcb3c11c9",
+      "companyId": "comp_a30411736c575c63",
+      "employeeId": "101",
+      "employeeName": "abhiraj",
+      "employeePost": "HR",
+      "subject": "Create and submit presentation",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-11",
+      "status": "Completed",
+      "createdAt": "2026-09-05T04:35:24.493Z",
+      "updatedAt": "2026-09-05T04:37:32.604Z"
+    },
+    {
+      "id": "task_c33a4e699d22a9d9",
+      "companyId": "comp_a30411736c575c63",
+      "employeeId": "101",
+      "employeeName": "abhiraj",
+      "employeePost": "HR",
+      "subject": "ppt",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-07",
+      "status": "In Progress",
+      "createdAt": "2026-09-05T04:25:19.836Z",
+      "updatedAt": "2026-09-05T04:37:39.687Z"
+    },
+    {
+      "id": "task_seed_1",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-101",
+      "employeeName": "Alex Rivera",
+      "employeePost": "Senior Fullstack Engineer",
+      "subject": "Implement real-time audio chunk processor",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-08",
+      "status": "In Progress",
+      "createdAt": "2026-09-05T04:07:56.160Z",
+      "updatedAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "task_seed_2",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-102",
+      "employeeName": "Priya Sharma",
+      "employeePost": "Product Designer",
+      "subject": "Design responsive meeting transcripts review modal",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-06",
+      "status": "Completed",
+      "createdAt": "2026-09-05T04:07:56.160Z",
+      "updatedAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "task_seed_3",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-103",
+      "employeeName": "Marcus Chen",
+      "employeePost": "QA & Release Lead",
+      "subject": "End-to-end testing of Gemini task extraction endpoint",
+      "assignedDate": "2026-09-05",
+      "deadline": "2026-09-10",
+      "status": "Pending",
+      "createdAt": "2026-09-05T04:07:56.160Z",
+      "updatedAt": "2026-09-05T04:07:56.160Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "mtg_32c0d9158ab29b26",
+      "companyId": "comp_a30411736c575c63",
+      "title": "hackatahon",
+      "date": "2026-09-05",
+      "time": "10:00",
+      "durationMinutes": 50,
+      "createdAt": "2026-09-05T04:32:08.763Z"
+    },
+    {
+      "id": "mtg_seed_1",
+      "companyId": "comp_seed_acme",
+      "title": "Q3 Product Roadmap & Sprint Kickoff",
+      "date": "2026-09-05",
+      "time": "10:00",
+      "durationMinutes": 45,
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    },
+    {
+      "id": "mtg_seed_2",
+      "companyId": "comp_seed_acme",
+      "title": "Architecture Review: Cloud Migration",
+      "date": "2026-09-06",
+      "time": "14:30",
+      "durationMinutes": 60,
+      "createdAt": "2026-09-05T04:07:56.160Z"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": "tr_1788585142497_6d6e9672",
+      "companyId": "comp_a30411736c575c63",
+      "meetingTitle": "Team Sync - 9/5/2026",
+      "transcriptText": "Okay, so I wanted to tell you that I need a person who can make the presentation and send me before 12th September.",
+      "durationSeconds": 10,
+      "recordedAt": "2026-09-05T05:12:12.729Z",
+      "expiresAt": "2027-09-05T05:12:22.497Z",
+      "summary": "The meeting focused on a request to create and submit a presentation prior to September 12, 2026.",
+      "keyPoints": [
+        "Request for an individual to prepare and send a presentation by September 12th."
+      ],
+      "speakers": [],
+      "actionItems": [
+        {
+          "id": "ai_task_1788585131143_0",
+          "subject": "Create and submit presentation",
+          "description": "Prepare the presentation and send it to the requester before September 12th.",
+          "suggestedEmployeeId": "101",
+          "suggestedEmployeeName": "abhiraj",
+          "suggestedDeadline": "2026-09-12",
+          "priority": "Medium",
+          "confidence": 80,
+          "transcriptQuote": "I need a person who can make the presentation and send me before 12th September.",
+          "selected": true
+        }
+      ],
+      "status": "reviewed"
+    }
+  ],
+  "alerts": [],
+  "sessions": [
+    {
+      "token": "d6fe1e76736d98fedb54830d68d028b31e6beaf115238a5a308bc5e15b15fa9f",
+      "userId": "mgr_986155394c29ba7e",
+      "role": "Manager",
+      "companyId": "comp_a30411736c575c63",
+      "createdAt": "2026-09-05T05:07:56.153Z",
+      "expiresAt": "2026-09-12T05:07:56.153Z"
+    },
+    {
+      "token": "8ce20cbee472df5d7be86b6a344a35e4bd0ba6095096fe259675bbc8a3a34dae",
+      "userId": "mgr_seed_1",
+      "role": "Manager",
+      "companyId": "comp_seed_acme",
+      "createdAt": "2026-09-05T05:18:53.556Z",
+      "expiresAt": "2026-09-12T05:18:53.556Z"
+    },
+    {
+      "token": "fccf8fbc4594fc446096cd9c3fc0ff569aac700bbd00289de4f98adbc90ef17f",
+      "userId": "mgr_seed_1",
+      "role": "Manager",
+      "companyId": "comp_seed_acme",
+      "createdAt": "2026-09-05T05:18:58.188Z",
+      "expiresAt": "2026-09-12T05:18:58.188Z"
+    },
+    {
+      "token": "c8b255874a5ee3e0ac8c95c1eaf8d2487ea38126dc8fbedf0de81b2380621e0c",
+      "userId": "mgr_seed_1",
+      "role": "Manager",
+      "companyId": "comp_seed_acme",
+      "createdAt": "2026-09-05T05:19:03.541Z",
+      "expiresAt": "2026-09-12T05:19:03.541Z"
+    },
+    {
+      "token": "8222c39437d879bbcea37300a65f3669cf4efeeecf01502621102a9a81dcd386",
+      "userId": "emp_seed_1",
+      "role": "Employee",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-101",
+      "createdAt": "2026-09-05T05:19:12.175Z",
+      "expiresAt": "2026-09-12T05:19:12.175Z"
+    },
+    {
+      "token": "c6031ad534fc6f3fe7229443036fcbe6324ac137fb2633ac2c3bc783fdb22f68",
+      "userId": "emp_seed_1",
+      "role": "Employee",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-101",
+      "createdAt": "2026-09-05T05:19:25.845Z",
+      "expiresAt": "2026-09-12T05:19:25.845Z"
+    },
+    {
+      "token": "a00c51961b5d9066a101701e56d0e59a8e63f5665a42651b83402c02fa0a36c7",
+      "userId": "emp_seed_1",
+      "role": "Employee",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-101",
+      "createdAt": "2026-09-05T05:20:34.104Z",
+      "expiresAt": "2026-09-12T05:20:34.104Z"
+    },
+    {
+      "token": "b60a3fa6af9d6ac69faa3ac2c67a459e48e8d37aa5771b27455147cd02ebd2eb",
+      "userId": "emp_seed_1",
+      "role": "Employee",
+      "companyId": "comp_seed_acme",
+      "employeeId": "EMP-101",
+      "createdAt": "2026-09-05T05:20:53.424Z",
+      "expiresAt": "2026-09-12T05:20:53.424Z"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MeetFlow",
+  "description": "Turn meetings into accountable action. Intelligent meeting accountability, role-based task delegation, and workflow platform.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

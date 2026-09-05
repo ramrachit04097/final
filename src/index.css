@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+/* Visible, accessible themed vertical scrollbar for modals & scrollable areas */
+.custom-modal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 124, 255, 0.75) rgba(18, 14, 36, 0.85);
+}
+
+.custom-modal-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  display: block;
+}
+
+.custom-modal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(18, 14, 36, 0.85);
+  border-radius: 9999px;
+  margin: 6px 0;
+}
+
+.custom-modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #8b7cff;
+  border-radius: 9999px;
+  border: 1.5px solid rgba(18, 14, 36, 0.85);
+}
+
+.custom-modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+.custom-modal-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #c4b5fd;
+}
+
+/* ========================================================================== */
+/* LIGHT THEME SYSTEM (WCAG AA Compliant, Enterprise-Grade Precision)         */
+/* ========================================================================== */
+
+html.light,
+html.light body,
+html.light #root,
+html.light #meetflow-app-root {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Header */
+html.light #meetflow-app-header {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Sidebar */
+html.light #meetflow-sidebar {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  color: #334155 !important;
+  box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.03) !important;
+}
+
+html.light #meetflow-sidebar nav button:not([class*="bg-gradient"]) {
+  color: #475569 !important;
+}
+
+html.light #meetflow-sidebar nav button:not([class*="bg-gradient"]):hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* Main Viewport */
+html.light #main-content-viewport,
+html.light main {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* GlowingEdgeCard & Surface Backgrounds */
+html.light .glowing-edge-card,
+html.light [class*="bg-[#0d0a16]"],
+html.light [class*="bg-[#090710]"],
+html.light [class*="bg-[#120e24]"],
+html.light [class*="bg-[#0e0a1c]"],
+html.light [class*="bg-[#121020]"],
+html.light [class*="bg-[#18122e]"],
+html.light [class*="bg-[#08070d]"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* GlowingEdgeCard inner surface */
+html.light .glowing-edge-card > div[class*="bg-[#0d0a16]"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+/* Glass & Card Borders */
+html.light [class*="border-violet-900"],
+html.light [class*="border-violet-800"],
+html.light [class*="border-violet-700"] {
+  border-color: #e2e8f0 !important;
+}
+
+/* Form Inputs, Selects, Textareas */
+html.light input:not([type="checkbox"]):not([type="radio"]),
+html.light select,
+html.light textarea {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.light select option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Tables */
+html.light table {
+  color: #0f172a !important;
+}
+
+html.light table thead tr {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light table th {
+  color: #475569 !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light table tbody tr {
+  border-color: #e2e8f0 !important;
+}
+
+html.light table tbody tr:hover {
+  background-color: #f8fafc !important;
+}
+
+/* Modals & Backdrop */
+html.light .fixed.inset-0[class*="bg-black/80"] {
+  background-color: rgba(15, 23, 42, 0.45) !important;
+}
+
+/* Typography Hierarchy in Light Mode */
+html.light .text-white,
+html.light .text-white\/95,
+html.light .text-white\/90 {
+  color: #0f172a !important;
+}
+
+html.light .text-violet-200,
+html.light .text-violet-200\/90 {
+  color: #1e293b !important;
+}
+
+html.light .text-violet-300 {
+  color: #334155 !important;
+}
+
+html.light .text-violet-300\/80,
+html.light .text-violet-300\/70,
+html.light .text-violet-300\/60 {
+  color: #64748b !important;
+}
+
+html.light .text-violet-400 {
+  color: #4f46e5 !important;
+}
+
+html.light .text-violet-400\/80,
+html.light .text-violet-400\/60,
+html.light .text-violet-400\/40 {
+  color: #64748b !important;
+}
+
+html.light .text-\[\#a78bfa\] {
+  color: #4f46e5 !important;
+}
+
+/* Status Badges */
+html.light .bg-emerald-500\/15 {
+  background-color: #ecfdf5 !important;
+  color: #047857 !important;
+  border-color: #a7f3d0 !important;
+}
+
+html.light .bg-rose-500\/15 {
+  background-color: #fff1f2 !important;
+  color: #be123c !important;
+  border-color: #fecdd3 !important;
+}
+
+html.light .bg-amber-500\/15 {
+  background-color: #fffbeb !important;
+  color: #b45309 !important;
+  border-color: #fde68a !important;
+}
+
+html.light .bg-indigo-500\/15 {
+  background-color: #eef2ff !important;
+  color: #4338ca !important;
+  border-color: #c7d2fe !important;
+}
+
+html.light .bg-violet-950\/20,
+html.light .bg-violet-950\/30,
+html.light .bg-violet-950\/40,
+html.light .bg-violet-950\/60 {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #334155 !important;
+}
+
+/* Preserve White Text on Solid Buttons */
+html.light button.bg-\[\#6d5df5\],
+html.light button.bg-\[\#6d5df5\] *,
+html.light button.bg-emerald-600,
+html.light button.bg-emerald-600 *,
+html.light button.bg-rose-600,
+html.light button.bg-rose-600 *,
+html.light button.bg-indigo-600,
+html.light button.bg-indigo-600 * {
+  color: #ffffff !important;
+}
+
+/* Light Mode Floating AI Assistant */
+html.light #floating-assistant-panel {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+}
+
+html.light #floating-assistant-header {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+/* Light Mode Custom Scrollbar */
+html.light .custom-modal-scrollbar {
+  scrollbar-color: rgba(99, 102, 241, 0.6) #f1f5f9;
+}
+
+html.light .custom-modal-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light .custom-modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border: 1.5px solid #f1f5f9;
+}

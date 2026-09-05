@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeetFlow - Turn Meetings into Accountable Action</title>
+    <meta name="description" content="Turn meetings into accountable action. Intelligent meeting accountability, role-based task delegation, and workflow platform." />
+    <meta property="og:title" content="MeetFlow - Turn Meetings into Accountable Action" />
+    <meta property="og:description" content="Turn meetings into accountable action. Intelligent meeting accountability, role-based task delegation, and workflow platform." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/meetflow-logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('meetflow_theme');
+          var theme = (saved === 'light' || saved === 'dark') ? saved : 'light';
+          document.documentElement.classList.remove('dark', 'light');
+          document.documentElement.classList.add(theme);
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <!-- Left Person Gradient (Indigo to Violet) -->
+    <linearGradient id="mf-left-grad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b7cff" />
+    </linearGradient>
+
+    <!-- Right Person Gradient (Violet to Purple) -->
+    <linearGradient id="mf-right-grad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Dynamic Arrow Gradient (Indigo -> Violet -> Purple) -->
+    <linearGradient id="mf-arrow-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b7cff" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Person Head -->
+  <circle cx="85" cy="65" r="14" fill="#818cf8" />
+
+  <!-- Right Person Head -->
+  <circle cx="155" cy="53" r="14" fill="#a78bfa" />
+
+  <!-- Left Person Loop (Infinity Left Half) -->
+  <path
+    d="M 85 86 C 62 86 44 104 44 127 C 44 150 62 168 85 168 C 105 168 120 152 120 132 C 120 110 105 86 85 86 Z"
+    stroke="url(#mf-left-grad)"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Right Person Loop (Infinity Right Half) -->
+  <path
+    d="M 155 76 C 133 76 118 96 118 118 C 118 140 133 162 155 162 C 178 162 196 144 196 121 C 196 98 178 76 155 76 Z"
+    stroke="url(#mf-right-grad)"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Dynamic Swoosh Arrow Ribbon -->
+  <path
+    d="M 46 142 C 60 156 88 152 118 132 C 148 112 176 88 194 62"
+    stroke="url(#mf-arrow-grad)"
+    stroke-width="14"
+    stroke-linecap="round"
+  />
+
+  <!-- Arrow Head -->
+  <polygon
+    points="182,48 206,58 196,82"
+    fill="#c084fc"
+  />
+</svg>
